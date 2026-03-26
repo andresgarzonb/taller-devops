@@ -11,7 +11,9 @@ test('muestra el título de la app', () => {
 // PRUEBA 2: Verifica que el mensaje de despliegue existe
 test('muestra el mensaje de despliegue', () => {
   render(<App />)
-  const mensaje = screen.getByText(/GitHub Actions/i)
+  const mensaje = screen.getByRole("heading",{
+    name: /GitHub Actions/i,
+  })
   expect(mensaje).toBeInTheDocument()
 })
 

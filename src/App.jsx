@@ -18,7 +18,12 @@ function App() {
             Bienvenido a tu
             <span className="gradient-text"> Aplicación DevOps</span>
           </h1>
-          
+          <h1>
+            Hola DevOps
+          </h1>
+          <h1>
+        GitHub Actions
+          </h1>
           <p className="subtitle">
             Integración continua y despliegue automático para un desarrollo ágil y eficiente
           </p>
