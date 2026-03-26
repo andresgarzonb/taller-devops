@@ -58,7 +58,7 @@ function App() {
                   <polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline>
                 </svg>
               </div>
-              <h3>Alta Disponibilidad</h3>
+     
               <p>Sistema robusto con monitoreo continuo</p>
             </div>
           </div>
