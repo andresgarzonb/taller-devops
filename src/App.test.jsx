@@ -23,3 +23,10 @@ test('el título principal es un h1', () => {
   const h1 = document.querySelector('h1')
   expect(h1).toBeInTheDocument()
 })
+
+test('el footer tiene contenido', () => {
+  render(<App />)
+
+  const footer = screen.getByRole('contentinfo')
+  expect(footer).not.toBeEmptyDOMElement()
+})
